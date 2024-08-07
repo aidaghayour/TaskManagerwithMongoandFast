@@ -1,6 +1,5 @@
 # Import the BaseModel class from the pydantic module
 from pydantic import BaseModel
-
 # Import the Optional type from the typing module
 from typing import Optional
 
