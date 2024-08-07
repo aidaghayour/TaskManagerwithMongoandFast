@@ -12,7 +12,7 @@ app = FastAPI()
 # Define a route for the root URL ("/") using the GET method
 # Root endpoint to check if the API is running
 @app.get("/")
-def read_root():
+def read_root(): 
     return {"message": "Welcome to the Task Manager API"}
 
 # Create a new task
